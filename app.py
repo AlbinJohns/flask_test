@@ -13,7 +13,7 @@ chroma_client = chromadb.PersistentClient(path="./")
 collection = chroma_client.get_collection(name="case_collection")
 
 # Placeholder for Google API key (manually enter your API key here)
-GOOGLE_API_KEY = "AIzaSyCUvxW0CQ7auPgWb9hwiZonYNy2kuiF63A"
+GOOGLE_API_KEY = "AIzaSyBJM6W72rBZLY4rcfHE0dEp_Ynbj1osheU"
 
 # Configure Google Generative AI
 genai.configure(api_key=GOOGLE_API_KEY)
